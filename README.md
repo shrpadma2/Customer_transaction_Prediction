@@ -21,16 +21,16 @@ All 100 variables needed to explain 100% of variance, hence the data must be PCA
 
 # MODEL CREATION AND SELECTION:
 OBSERVATION:
-•	logistic regression model gives the AUC score of 0.7685
-•	Naïve Bayes model gives the AUC score of 0.8046
-•	Now since the target variable is not balanced, we will balance the dataset using down sampling and try to apply various algorithms
-•	Post down sampling below are the results
-•	logistic regression model gives the AUC score of 0.7723
-•	Naive Bayes model gives the AUC score of 0.8124
-•	We can see that down sampling slightly improves our metric
-•	Random Forest gives the AUC score of 0.7786
-•	XGB Classifier model gives the AUC score 0.7973
-•	From above all model, we are select Naive Bayes because it has a better AUC score.
+ *	logistic regression model gives the AUC score of 0.7685
+ *	Naïve Bayes model gives the AUC score of 0.8046
+ *	Now since the target variable is not balanced, we will balance the dataset using down sampling and try to apply various algorithms
+ *	Post down sampling below are the results
+ *	logistic regression model gives the AUC score of 0.7723
+ *	Naive Bayes model gives the AUC score of 0.8124
+ *	We can see that down sampling slightly improves our metric
+ *	Random Forest gives the AUC score of 0.7786
+ *	XGB Classifier model gives the AUC score 0.7973
+ *	From above all model, we are select Naive Bayes because it has a better AUC score.
 
 
 
